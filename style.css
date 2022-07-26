@@ -1,0 +1,68 @@
+body, html {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background-color: #fca311;
+}
+.container {
+    width: 25vw;
+    margin: 6rem auto;
+    padding: 3pt;
+    border: 2pt solid black;
+    border-radius: 0.5rem;
+    box-shadow: 0.5rem 0.5rem;
+}
+.input-group{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+label {
+    display: block;
+    margin-bottom: 0.4rem;
+}
+
+input {
+    width:90%;
+    background-color: #fca311;
+    height: 30px;
+    border:none;
+    border-bottom: 1px solid black;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    background-color: #000;
+    margin: 0.5rem 0.5rem;
+    color:#fff;
+    width:20%;
+    height: 2.5rem;
+    border: none;
+}
+
+img {
+    width: 8%;
+    display:block;
+}
+
+
+ @media screen and (max-width: 1000px) {
+    .container {
+      width: 30vw;
+    }
+ }
+
+ @media screen and (max-width: 680px) {
+    .container {
+      width: 45vw;
+    }
+ }
+
+ @media screen and (max-width: 650px) {
+    .container {
+      width: 80vw;
+    }
+ }
